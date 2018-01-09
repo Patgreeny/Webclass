@@ -1,0 +1,24 @@
+html{background-color:#dd3c46 }
+body{font-family: 'Alegreya Sans', sans-serif;
+	margin-left: 10px;
+	}
+h1{background-color: white;width:300px;border: 20px;margin: 10px;padding: 14px 25px;margin-left: 48px}
+
+a:link, a:visited {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 50px;
+    background-image: 
+}
+
+
+a:hover, a:active {
+    background-color: green;
+}
+body{text-align: left;}
+img{border: 30px;padding: 25px;margin: 25px;background-color: white;text-align: left}
