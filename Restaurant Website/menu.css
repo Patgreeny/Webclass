@@ -1,0 +1,63 @@
+ul{"list-style-type: none;"}
+html{background-color: #33BEFF}
+body{font-family: 'Alegreya Sans', sans-serif}
+a:link, a:visited {
+    background-color: gray;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;]
+}
+
+.Food {width: 300px;display: inline-block;margin: 10px}
+a:hover, a:active {
+    background-color: white;
+   text-align: center;
+}
+
+img{border: 30px;padding: 25px;margin: 25px;background-color: #D7DBDD}
+
+h1{border: 20px;padding: 20px;margin: 20px;background-color: #95A5A6}
+
+h2{border: 10px;padding: 10px;margin: 10px;background-color: #95A5A6;width: 70px}
+
+h3{border: 10px;padding: 10px;margin: 10px;background-color: #95A5A6;width: 60px}
+
+h4{border: 10px;padding: 10px;margin: 10px;background-color: #95A5A6;width: 50px}
+
+h5{border: 5px;padding: 5px;margin: 5px;background:#95A5A6;width: 40px}
+
+h6{border: 10px;padding: 10px;margin: 10px;background-color: #95A5A6;width: 40px}
+
+a:link, a:visited {
+    background-color: white;
+    color: grey;
+    padding: 5px;
+    
+    text-align: center;
+    text-decoration: none;
+  /*float: center;*/
+  display: inline-block;
+    margin: 50px 20px auto;
+    height: 200px;width: 250px;
+}
+
+
+a:hover, a:active {
+    background-color: green;
+}
+body{text-align: center;}
+img{border: 30px;background-color: white;text-align: center; height:150px;}
+
+@media (max-width: 1024px){
+    a:link, a:visited { margin: 50px 100px auto;}
+    .Food {margin: 100px}
+
+}
+@media (max-width: 1000px){
+    a:link, a:visited { margin: 50px 200px auto;}
+
+}
+
+

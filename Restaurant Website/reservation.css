@@ -1,0 +1,18 @@
+html{background-color:#33FFE0}
+body{font-family: 'Alegreya Sans', sans-serif;}
+h1{background-color: white;width:300px;border: 30px;margin: 25px;padding: 25px }
+a:link, a:visited {
+    background-color: yellow;
+    color: green;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: grey;
+}
+body{text-align: center;}
+img{border: 30px;padding: 25px;margin: 25px;background-color: #33ACFF}
