@@ -13,7 +13,7 @@ a:link, a:visited {
     
     text-align: center;
     text-decoration: none;
-  /*float: center;*/
+
   display: inline-block;
     margin: 50px 20px auto;
     height: 200px;width: 250px;
@@ -33,7 +33,9 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
     margin-left: 50px;
-    background-image: 
+
+     margin: 50px 20px auto;
+    height: 200px;width: 250px;
 
 }
 
@@ -45,8 +47,15 @@ a:hover, a:active {
 body{text-align: center;}
 img{border: 30px;background-color: white;text-align: center; height:150px;}
 
-@media (max-width: 1024px){
+
+}
+
+body{text-align: left;}
+img{border: 30px;padding: 25px;margin: 25px;background-color: white;text-align: left;}
+
+    @media (max-width: 1024px){
     a:link, a:visited { margin: 50px 100px auto;}
+    .Food {margin:  50px 100px auto}
 
 }
 @media (max-width: 1000px){
@@ -54,6 +63,4 @@ img{border: 30px;background-color: white;text-align: center; height:150px;}
 
 }
 
-body{text-align: left;}
-img{border: 30px;padding: 25px;margin: 25px;background-color: white;text-align: left}
 
