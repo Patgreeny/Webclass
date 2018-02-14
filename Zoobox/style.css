@@ -1,0 +1,65 @@
+#myCarousel{margin: 24px auto ;text-align: center;}
+
+.pricingoptions{height: 400px;width: 200px;background-color: #fafafa
+}
+.pricingoptions {
+    float: left;
+    width: calc(33.33% - 24px);
+    padding: 10px;
+    height: 400px; 
+    margin: 12px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}
+h2{color: #F39C12;font-size: 35px
+ 
+}
+h3{font-size: 50px;text-align: center;}
+.reviews{height: 400px;width: 500px;font-family: garamond;margin-bottom: 90px}
+h4{font-size: 40px;text-align: center;}
+.intheblog{text-align: center;}
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;float:right;}
+
+  /* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.news {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
